@@ -1,0 +1,35 @@
+name: n64.pufty.ci.centos.org 
+seamicro_chassis: pufty 
+seamicro_srvid: 63/0 
+mac_address: 00:22:99:21:14:67 
+ip: 172.19.3.128 
+gateway: 172.19.3.254 
+netmask: 255.255.248.0 
+nameserver: 172.19.0.12 
+centos_dist: 7
+centos_arch: x86_64
+
+local_users_list:
+  - login_name: phrdina
+    sudo_right: true
+    full_name: "Pavel Hrdina"
+    ssh_pub_key: 
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC85F5ZPjrZE/L4YbTYTBHiHeLMoA+NDErhFrcPwEyBWeibCVMhL11h1/CVpkGoyr5t0Ew1uboLYhdcJQ0MCTaiy6Fpf5XjeC6Q5BuF/i5nT5ofb0gxttb5EFmb9AjZln5e2iTe2C9AiMRZdg9nd7VLScScn5zBTNuETO0xY+sbdP1IkLEw6A4cei6dhWCBKe9u0UvHMpOn4E5dayTYPdYQiyO9jZR0NClWzHbfzJPo7X3dt/08dwqwFidM9CirVqpMF4Z/wEx3Ku/6rnzSSF/hx1INPCSSqVwGVXuFLhaQc0jpdM33SapaevCk+XnXCbG9Kk9/GvldfLPjtkL82LIX phrdina@antique-laptop"
+  - login_name: berrange
+    sudo_right: true
+    full_name: Daniel Berrange
+    ssh_pub_key:
+       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD10KDeNW/GS56ZN5uLln6Sb4EYSIh/RhBXX4gI+HHkrNXUn/N/Z7yfJsTuJqRTnq55bQCIrF+HyA8mUCCJ0BDCAXd58vuypkJ7/hp43YnuLkQtzTEqzenrs7/jzhHwrWtt5ndYyfrNqlUFKvINO6l+E1vgdU1S75ZOx1gTi5h4IVFqEhHN5ImmD4Xy2R5VcHGUw+MkXk9e++pyig1UzMGw4lT6s5PfbYudQSAT3FI2/SVBd9Iwv46/LgamiQpacLcBm8y3VZLvupsvD1esjQO+xMC3tiGots6lDaOh2gJoLaMGdfaVjBGuUvv6l7/8cEm6CD09NhIY99Xz5UqywAXLcicu78b28uOZvY8Idbzwq6w5ATOD+QFfCvIIRi9mtolAjH9UwSrKztU9TK6oAAtKxDKFvWo8sYRfMU+IsMq5tglUJ57xsnJK6tW5TJ87jrVEnSPnoMd5NrXP9B+TTewhNFYT8YnSVygyIlvNBUn1smEqi/csnRRKac+r4lqrMVSwO5n/qnZW/jAQHMuKpJDD8/e+A/JL69MpW2LILNJ4mJTR8PHAOtFKURVB9ChPrVk8R0VnZtmku6KfHDEflME4Q7WvfOwxuZkr2k6uJ7VaQy4b/Xe7ap+xGM5OAJpn//dNl+esBfwKK/8KKqjJNfa+MvFbfPq88mi32OmehqtpqQ== berrange@localhost.localdomain"
+  - login_name: ymankad
+    sudo_right: true
+    full_name: Yash Mankad
+    ssh_pub_key:
+       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdVq5kni9g1XAf4fJ7uAYgQqBX1tVZbQ7h30rLK06l7mxsJja3Uk3DL9C1BYVgzjw22nZUWZ6EQHua0GFwptKHE+KvhexNwn5DINFo+P2cJH6O9mdT77jrXfUMCP4cspuI5YpyvO/Q5HKNqCE2pe2bCOL4wCtUaz5M/zkuKj8yDbKmcMY/o8UFoftnrHYOpm25YRqOHoC8b7qW/vXe6lbhEcxdcGLvoj7CF7tqdPjXpkklIccuk7r1mndMRGjWoSAo3+US3AvYQF/uyuorCVxT8N1PKxl63e8aj2Z9CRsXvJwR3JHLHXTuChxA7oJVGMxL+SA5m+JTR7aXkmWNevCd ymankad@dhcp-17-59.bos.redhat.com"
+  - login_name: dkaigaro
+    sudo_right: true
+    full_name: "Dmytro Kiharodtsev"
+    ssh_pub_key: 
+       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbge6LQYC12OlWoVYbmopj0u+Rl0qq6t/ghw3DHaTI2GsOGi3ryknMtjCHJ5UD0irhvg/b7eLIWMm9iSPtSx7qJL3gsNPSSVmfHdyUPmmLKfQOuNk5UKE6WV/B3619hMsj3cECnr82ls11riZ+XKkCri96Ys2dSCqec91N3vSti5NHw2ZCHX1+SOsefNnUr4bUPAhwYpLaezGf5v5xmy6Rrp8XSq945UjIGkK/YqUOChEZnDlbkMbI8sgOdF7lmjc+NyWCfSAFBcoKdGie8Pke89pXaZmLpTWqsLsPpv+mTpaoRiyv0fgPOgGJd4zbD8qAwz69fvD5hYIbGLRc5hER dkaih@KH68"
+
+
+seamicro_diskid: 7/7

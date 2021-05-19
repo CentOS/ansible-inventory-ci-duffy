@@ -1,0 +1,52 @@
+name: n64.gusty.ci.centos.org 
+seamicro_chassis: gusty 
+seamicro_srvid: 63/0 
+mac_address: 00:22:99:30:94:67 
+ip: 172.19.2.192 
+gateway: 172.19.3.254 
+netmask: 255.255.248.0 
+nameserver: 172.19.0.12 
+centos_dist: 7
+seamicro_diskid: 7/7
+
+local_users_list:
+  - login_name: phrdina
+    sudo_right: true
+    full_name: "Pavel Hrdina"
+    ssh_pub_key: 
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC85F5ZPjrZE/L4YbTYTBHiHeLMoA+NDErhFrcPwEyBWeibCVMhL11h1/CVpkGoyr5t0Ew1uboLYhdcJQ0MCTaiy6Fpf5XjeC6Q5BuF/i5nT5ofb0gxttb5EFmb9AjZln5e2iTe2C9AiMRZdg9nd7VLScScn5zBTNuETO0xY+sbdP1IkLEw6A4cei6dhWCBKe9u0UvHMpOn4E5dayTYPdYQiyO9jZR0NClWzHbfzJPo7X3dt/08dwqwFidM9CirVqpMF4Z/wEx3Ku/6rnzSSF/hx1INPCSSqVwGVXuFLhaQc0jpdM33SapaevCk+XnXCbG9Kk9/GvldfLPjtkL82LIX phrdina@antique-laptop"
+  - login_name: berrange
+    sudo_right: true
+    full_name: Daniel Berrange
+    ssh_pub_key:
+       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD10KDeNW/GS56ZN5uLln6Sb4EYSIh/RhBXX4gI+HHkrNXUn/N/Z7yfJsTuJqRTnq55bQCIrF+HyA8mUCCJ0BDCAXd58vuypkJ7/hp43YnuLkQtzTEqzenrs7/jzhHwrWtt5ndYyfrNqlUFKvINO6l+E1vgdU1S75ZOx1gTi5h4IVFqEhHN5ImmD4Xy2R5VcHGUw+MkXk9e++pyig1UzMGw4lT6s5PfbYudQSAT3FI2/SVBd9Iwv46/LgamiQpacLcBm8y3VZLvupsvD1esjQO+xMC3tiGots6lDaOh2gJoLaMGdfaVjBGuUvv6l7/8cEm6CD09NhIY99Xz5UqywAXLcicu78b28uOZvY8Idbzwq6w5ATOD+QFfCvIIRi9mtolAjH9UwSrKztU9TK6oAAtKxDKFvWo8sYRfMU+IsMq5tglUJ57xsnJK6tW5TJ87jrVEnSPnoMd5NrXP9B+TTewhNFYT8YnSVygyIlvNBUn1smEqi/csnRRKac+r4lqrMVSwO5n/qnZW/jAQHMuKpJDD8/e+A/JL69MpW2LILNJ4mJTR8PHAOtFKURVB9ChPrVk8R0VnZtmku6KfHDEflME4Q7WvfOwxuZkr2k6uJ7VaQy4b/Xe7ap+xGM5OAJpn//dNl+esBfwKK/8KKqjJNfa+MvFbfPq88mi32OmehqtpqQ== berrange@localhost.localdomain"
+  - login_name: ymankad
+    sudo_right: true
+    full_name: Yash Mankad
+    ssh_pub_key:
+       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdVq5kni9g1XAf4fJ7uAYgQqBX1tVZbQ7h30rLK06l7mxsJja3Uk3DL9C1BYVgzjw22nZUWZ6EQHua0GFwptKHE+KvhexNwn5DINFo+P2cJH6O9mdT77jrXfUMCP4cspuI5YpyvO/Q5HKNqCE2pe2bCOL4wCtUaz5M/zkuKj8yDbKmcMY/o8UFoftnrHYOpm25YRqOHoC8b7qW/vXe6lbhEcxdcGLvoj7CF7tqdPjXpkklIccuk7r1mndMRGjWoSAo3+US3AvYQF/uyuorCVxT8N1PKxl63e8aj2Z9CRsXvJwR3JHLHXTuChxA7oJVGMxL+SA5m+JTR7aXkmWNevCd ymankad@dhcp-17-59.bos.redhat.com"
+  - login_name: dkaigaro
+    sudo_right: true
+    full_name: "Dmytro Kiharodtsev"
+    ssh_pub_key: 
+       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbge6LQYC12OlWoVYbmopj0u+Rl0qq6t/ghw3DHaTI2GsOGi3ryknMtjCHJ5UD0irhvg/b7eLIWMm9iSPtSx7qJL3gsNPSSVmfHdyUPmmLKfQOuNk5UKE6WV/B3619hMsj3cECnr82ls11riZ+XKkCri96Ys2dSCqec91N3vSti5NHw2ZCHX1+SOsefNnUr4bUPAhwYpLaezGf5v5xmy6Rrp8XSq945UjIGkK/YqUOChEZnDlbkMbI8sgOdF7lmjc+NyWCfSAFBcoKdGie8Pke89pXaZmLpTWqsLsPpv+mTpaoRiyv0fgPOgGJd4zbD8qAwz69fvD5hYIbGLRc5hER dkaih@KH68"
+  - login_name: arrfab
+    full_name: "Fabian Arrotin"
+    sudo_right: true
+    ssh_pub_key: 
+      - "ssh-dss AAAAB3NzaC1kc3MAAACBAIGGropb6yWgEkDLHPfRfWLrfX/6quYZxjmkFcd+L0BbpwRuUJV7gVXnOgLEp1xIUfelEMTOnp+H7ByJHjjg625SxwZ9bApzNXlc1GzEYbytYzvt9v2OAaGV/tt5HAma5wvj1vuD8X6s5T6aQv17eDTKhzhiWbfep1ueVfKCIeppAAAAFQD8RVdVgMItSimSiYWf38od2+1tiwAAAIAViNUsrM02S2R1XPZDb7pThjG27uoUxirsQm47bTSfH1IfHJJxpddeO9wxrrsojdCGWnWmRnZRgPIw/qtf9JBSf7M+5I4xSmb9ijUOzmYFKYa1IFWWEKBhPVwyVzxYyRUDEE/g0F9RWjmadHmOWVpwUIbCIq8ctCJjYPieQVXaeAAAAIAyqzVZ6rRdXM0pIRs/jr6BLl4k06X/Q8DRQCJft3JPLpOqx+D5VHHU0TDSXVvs/cIB6QMF4tCGVyjWysAKnoFiPlU7q0gKyapx9Q6vY+yWKllAvHBNYlgLslYA5EcGW63KPTVUauBlyFY+SnnT75KTloS8eui+Bj3clUUiXIjE5w== fabian.arrotin@arrfab.net"
+  - login_name: bstinson
+    sudo_right: true
+    full_name: "Brian Stinson"
+    ssh_pub_key: 
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbD3FmTh+6ZrlVBlx468WNI2N/LACPEC3XwJrWKefXu2w+7tJRe1H/Ttzy6XdcfLalz06445tGBR2SX9Ccd9ZA6m+z4CV3aF280Y5FD9lBlV7KEHwOBeXFh7ifFIoVf4yUqlGOzz/VI4mlSREQevx423vs/UgUZADj0ALqFKxkLi1LnwY4gW+DmPFL5LeS75LQM4NxmNDPldodq2VBTI41eEqpQ5sBuMJyjIPCT/BIC/fwrJi3MPEFu2ye8vRDwZ130mBp98d9D8+jMTnXXXhDMFT0wXzcQrN3SYywoBxiRULIhhPTIlY5IS8ynx2pOm+NQfscAdjUzUmAcqM/G5SJ bstinson@stinson.com"
+  - login_name: eskultet
+    sudo_right: true
+    full_name: "Eric Skultety"
+    ssh_pub_key:  
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAEAQDJlpprKehr1uNNnICix8et8GPS1xxMGJPq6OqPZ0DM69zwEw42DGiYNz26ljURyv64jAoMYWfoZ7uoReDXbNLAIKR3KPskxchi6aEam+ssiYf/JUW7PWl/2kpYviqomKA4XZ7XZ5pFN5gCdtlKpM5umva4nCT5O9soVHUNe75ObE+eQDjbH8Fo+/AbLQIJ35JeQl2opr4ipdMhsUWlc7wvLtQSvpmWbPNriOGgsdvcR1MPpELVwAFkmrvsSBf5k0elQ5aDbcOMSBcJYrTnFLWsUm9eG+L6FrGmaPvXbm4aNG3vym0RMXkllGobqHNYL3QOFr1w+42hWp/os92YYEMEQnLgbdTiIy00wDevggeEBCC7CIaEx2udfKUojFinVAlWiZhOc6JZH1eFJmtPgGcNgs82iCVJcenEZpqzQeuf02lFVt2P03gKBdeLP29Z1DnBZyV/qTqN43xFFvTHv+Hl/DPTljfSCG64SNLzjiPI2kBnOiINGI00eT/tEzPF3fc5JQOiVLlJwrQDDa+CUSbMenw2McjHX97t8CbCp5SRgAAYiUL0d425aOQu2qObJEDX9mJRo6xYlDwTo+Uj1DtR8KDjpPBUnbTAgnXTi8U6Z/mx9yBTsEMQ6OxFzQDoLzGkItDPi5Gqe8Q3cxvZyFUIw1rfXJvekLlTpk4A6npqOkbgBfS5JsQwOsiPBI64D3HSYc0H6hBp878TvLiMQfmgzT3pkq3AWzj9u4EipvytPBGU7JBmIvA7tTeQvVJu5pSOayvet2lHKu22ec6fc2W6iN5shWbYcR9Ake+AJJu2Fw1h+uWSVg3AbFANVCDvG+kPFyYp/E2OLp7QvTES1SMWtD4HDMRse64pMWUx7puuyMlzzczrkf5rdG1sH9yKEgGdzOoK2DkS/oEEGm92PLt9iaAeNmS8WHxUjRxtD5EyQfUyXXo6vIB+QFNtGNN7RmjaAPi9TEjndXcVvrb3Wz8PCsOL3ZUCJbSMj2CRyvmyj3+TWS4ccsGIdMw8AQfF+6HdsbVpz9V9DFQwQb6QrgTans3esd7ggUWwglCPrmkul9qvASkNLt3ry6xOipoA2+Ly4uDQ0YJOojzsa+qo2LtXfTDhElEmedpMCI8085Yp6uSXzoG9HKF9Xm5vOVpLg4c74HRmQtsgaQi0Eg767p7aeyMZsYdmdohbYfrKilg4V5iPdM8Kd3kYFMZJA4ET+DjOdBkjvWrKINkY3W7lURfbHyza6GqE2if1jQg6CEeQKg2ZRCzkZ5Ekxdn92fAMT9TxyDg+kPC/NJgJmsU+bIGyoOwbFWorazc8z0AFPVF4t1AYgJMTmu6FNddbRRGDWpKn6YA1YuMhJ0kjJxsCFjAd eskultety@erzo-ntb.brq.redhat.com"
+  - login_name: abologna
+    sudo_right: true 
+    full_name: "Andrea Bolognani"
+    ssh_pub_key:  
+       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQcfmZ+nMKhV3yugPfGKsKg4r3u5iM4ifWuEN9xq0z1dDPgkgKeu08Hxog3NrHVR3ZU1rBRQ2s5Mu44lpwnpntXkpJQ0Q8Y2sA1KGner2FYiXo2OYDiylTkZ8M5RcELe+rHCU4Dy+QNpSOAEtrITsg3eBXFEtsKapqLXSHpl9HHcj6/YQ1fB2x1qVqg2AR699VS9yO5I5k1pJCdjBQTcXcLeyDp1FHddnHB22G3Ps4+hJeGao11a659sXldR74xiWB76S6zdIh176xEi6dI9bQf5wVa/oXywu/ALqmJGrdiO7QY9ztNTKDmTukuUngD+oph72We/j8Utmml7zbjEj3"

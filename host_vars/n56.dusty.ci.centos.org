@@ -1,0 +1,10 @@
+name: n56.dusty.ci.centos.org 
+seamicro_chassis: dusty 
+seamicro_srvid: 55/0 
+mac_address: 00:22:99:c5:82:62 
+ip: 172.19.2.120 
+gateway: 172.19.3.254 
+netmask: 255.255.248.0 
+nameserver: 172.19.0.12 
+centos_dist: 6
+seamicro_diskid: 3/7

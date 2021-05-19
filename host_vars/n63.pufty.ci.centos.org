@@ -1,0 +1,23 @@
+name: n63.pufty.ci.centos.org 
+seamicro_chassis: pufty 
+seamicro_srvid: 62/0 
+mac_address: 00:22:99:21:14:77 
+ip: 172.19.3.127 
+gateway: 172.19.3.254 
+netmask: 255.255.248.0 
+nameserver: 172.19.0.12 
+centos_dist: 7
+centos_arch: x86_64
+seamicro_diskid: 7/6
+
+local_users_list:
+  - login_name: bstinson
+    sudo_right: true
+    full_name: "Brian Stinson"
+    ssh_pub_key: 
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbD3FmTh+6ZrlVBlx468WNI2N/LACPEC3XwJrWKefXu2w+7tJRe1H/Ttzy6XdcfLalz06445tGBR2SX9Ccd9ZA6m+z4CV3aF280Y5FD9lBlV7KEHwOBeXFh7ifFIoVf4yUqlGOzz/VI4mlSREQevx423vs/UgUZADj0ALqFKxkLi1LnwY4gW+DmPFL5LeS75LQM4NxmNDPldodq2VBTI41eEqpQ5sBuMJyjIPCT/BIC/fwrJi3MPEFu2ye8vRDwZ130mBp98d9D8+jMTnXXXhDMFT0wXzcQrN3SYywoBxiRULIhhPTIlY5IS8ynx2pOm+NQfscAdjUzUmAcqM/G5SJ bstinson@stinson.com"
+  - login_name: libguestfs
+    sudo_right: true
+    full_name: libguestfs
+    ssh_pub_key: 
+    - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCcj/0hX2NxOtKWlgkanCfmzNmJQwFZu66/8EwIA9ZWf+73o9lJB7Og3ZbHh3ihTr/c6Q4TgKfpdReqziYr3DQ2IR1mmoVO2h9YPsK/ChNYPGPKOBtIl7XRKueEC2WALbWsGU1IROriV8mpraEeotxZs1YX45KtYlLf+WFL5S5Aeayv1h9Xz5lfpKIViqVFIew2muxbGEHcQVTJNQlJnTgxDb2u7EysQ5DeHosV5mluaGM7kGINDHIE+TAr6jAg5mtiEBuuyF9CrKXdSxVkP9D/4zIlb+DDhn/Rpe8kyMnE+omE8ql6Ow8oB9S8+fuSZcK1rbFIdDzgS1j61FkvvezL ptoscano@pendragon.usersys.redhat.com"

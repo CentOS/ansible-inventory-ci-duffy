@@ -1,0 +1,10 @@
+name: n13.gusty.ci.centos.org 
+seamicro_chassis: gusty 
+seamicro_srvid: 12/0 
+mac_address: 00:22:99:30:95:07 
+ip: 172.19.2.141 
+gateway: 172.19.3.254 
+netmask: 255.255.248.0 
+nameserver: 172.19.0.12 
+centos_dist: 6
+seamicro_diskid: 6/0

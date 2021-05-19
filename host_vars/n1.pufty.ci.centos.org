@@ -1,0 +1,11 @@
+name: n1.pufty.ci.centos.org 
+seamicro_chassis: pufty 
+seamicro_srvid: 0/0 
+mac_address: 00:22:99:21:10:07 
+ip: 172.19.3.65 
+gateway: 172.19.3.254 
+netmask: 255.255.248.0 
+nameserver: 172.19.0.12 
+centos_dist: 7
+centos_arch: x86_64
+seamicro_diskid: 0/0
